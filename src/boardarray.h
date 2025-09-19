@@ -14,12 +14,31 @@ class BoardArray : public Board {
         }
 
         void add(Entry* entry) {
-            // TODO: IMPLEMENT THIS FUNCTION
+        
+           
+           //shift right
+         
+
+       
+          for(int i=0;i<index;i++){
+                Entry existing=array[i];
+                existing.compare();
+
+
+            }
+           
+            // if(compare -> array[i]){  TODO: IMPLEMENT THIS FUNCTION
             // ALGORITHM IS PROVIDED IN INSTRUCTIONS.TXT
 
             return;
-        }
-
+       
+       
+       
+       
+        };
+           
+     
+     
         void print() {
             for (int i = 0; i < index; i++) {
                 cout << i + 1 << ". ";
